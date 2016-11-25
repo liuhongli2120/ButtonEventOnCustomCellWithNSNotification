@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F28DC11B1DE8864300014F3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC11A1DE8864300014F3B /* main.m */; };
+		F28DC11E1DE8864300014F3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC11D1DE8864300014F3B /* AppDelegate.m */; };
+		F28DC1211DE8864300014F3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC1201DE8864300014F3B /* ViewController.m */; };
+		F28DC1241DE8864300014F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28DC1221DE8864300014F3B /* Main.storyboard */; };
+		F28DC1261DE8864300014F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28DC1251DE8864300014F3B /* Assets.xcassets */; };
+		F28DC1291DE8864300014F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28DC1271DE8864300014F3B /* LaunchScreen.storyboard */; };
+		F28DC1331DE88A3900014F3B /* HLCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC1321DE88A3900014F3B /* HLCustomCell.m */; };
+		F28DC1351DE88D5C00014F3B /* jinxishan001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F28DC1341DE88D5C00014F3B /* jinxishan001.jpg */; };
+		F28DC1511DE88DEE00014F3B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F28DC1371DE88DED00014F3B /* Info.plist */; };
+		F28DC1521DE88DEE00014F3B /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC1391DE88DED00014F3B /* MASCompositeConstraint.m */; };
+		F28DC1531DE88DEE00014F3B /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC13C1DE88DED00014F3B /* MASConstraint.m */; };
+		F28DC1541DE88DEE00014F3B /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC13E1DE88DED00014F3B /* MASConstraintMaker.m */; };
+		F28DC1551DE88DEE00014F3B /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC1401DE88DED00014F3B /* MASLayoutConstraint.m */; };
+		F28DC1561DE88DEE00014F3B /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC1441DE88DED00014F3B /* MASViewAttribute.m */; };
+		F28DC1571DE88DEE00014F3B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC1461DE88DEE00014F3B /* MASViewConstraint.m */; };
+		F28DC1581DE88DEE00014F3B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC1481DE88DEE00014F3B /* NSArray+MASAdditions.m */; };
+		F28DC1591DE88DEE00014F3B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC14B1DE88DEE00014F3B /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F28DC15A1DE88DEE00014F3B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC14D1DE88DEE00014F3B /* View+MASAdditions.m */; };
+		F28DC15B1DE88DEE00014F3B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC1501DE88DEE00014F3B /* ViewController+MASAdditions.m */; };
+		F28DC15D1DE88EDB00014F3B /* jinxishan002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F28DC15C1DE88EDB00014F3B /* jinxishan002.jpg */; };
+		F28DC1601DE8A54E00014F3B /* HLZiXiaXianZiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC15F1DE8A54E00014F3B /* HLZiXiaXianZiViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F28DC1161DE8864300014F3B /* ButtonEventCustomCellViaNSNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonEventCustomCellViaNSNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28DC11A1DE8864300014F3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F28DC11C1DE8864300014F3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F28DC11D1DE8864300014F3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F28DC11F1DE8864300014F3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F28DC1201DE8864300014F3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F28DC1231DE8864300014F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F28DC1251DE8864300014F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F28DC1281DE8864300014F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F28DC12A1DE8864300014F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28DC1311DE88A3900014F3B /* HLCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCustomCell.h; sourceTree = "<group>"; };
+		F28DC1321DE88A3900014F3B /* HLCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCustomCell.m; sourceTree = "<group>"; };
+		F28DC1341DE88D5C00014F3B /* jinxishan001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jinxishan001.jpg; sourceTree = "<group>"; };
+		F28DC1371DE88DED00014F3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28DC1381DE88DED00014F3B /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F28DC1391DE88DED00014F3B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F28DC13A1DE88DED00014F3B /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F28DC13B1DE88DED00014F3B /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F28DC13C1DE88DED00014F3B /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F28DC13D1DE88DED00014F3B /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F28DC13E1DE88DED00014F3B /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F28DC13F1DE88DED00014F3B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F28DC1401DE88DED00014F3B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F28DC1411DE88DED00014F3B /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F28DC1421DE88DED00014F3B /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F28DC1431DE88DED00014F3B /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F28DC1441DE88DED00014F3B /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F28DC1451DE88DED00014F3B /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F28DC1461DE88DEE00014F3B /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F28DC1471DE88DEE00014F3B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F28DC1481DE88DEE00014F3B /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F28DC1491DE88DEE00014F3B /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F28DC14A1DE88DEE00014F3B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F28DC14B1DE88DEE00014F3B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F28DC14C1DE88DEE00014F3B /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F28DC14D1DE88DEE00014F3B /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F28DC14E1DE88DEE00014F3B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F28DC14F1DE88DEE00014F3B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F28DC1501DE88DEE00014F3B /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F28DC15C1DE88EDB00014F3B /* jinxishan002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jinxishan002.jpg; sourceTree = "<group>"; };
+		F28DC15E1DE8A54E00014F3B /* HLZiXiaXianZiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLZiXiaXianZiViewController.h; sourceTree = "<group>"; };
+		F28DC15F1DE8A54E00014F3B /* HLZiXiaXianZiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLZiXiaXianZiViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28DC1131DE8864300014F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F28DC10D1DE8864300014F3B = {
+			isa = PBXGroup;
+			children = (
+				F28DC1181DE8864300014F3B /* ButtonEventCustomCellViaNSNotification */,
+				F28DC1171DE8864300014F3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28DC1171DE8864300014F3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28DC1161DE8864300014F3B /* ButtonEventCustomCellViaNSNotification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28DC1181DE8864300014F3B /* ButtonEventCustomCellViaNSNotification */ = {
+			isa = PBXGroup;
+			children = (
+				F28DC1301DE88A0C00014F3B /* CustomCell */,
+				F28DC11C1DE8864300014F3B /* AppDelegate.h */,
+				F28DC11D1DE8864300014F3B /* AppDelegate.m */,
+				F28DC11F1DE8864300014F3B /* ViewController.h */,
+				F28DC1201DE8864300014F3B /* ViewController.m */,
+				F28DC15E1DE8A54E00014F3B /* HLZiXiaXianZiViewController.h */,
+				F28DC15F1DE8A54E00014F3B /* HLZiXiaXianZiViewController.m */,
+				F28DC1361DE88DED00014F3B /* Masonry */,
+				F28DC1221DE8864300014F3B /* Main.storyboard */,
+				F28DC1251DE8864300014F3B /* Assets.xcassets */,
+				F28DC1341DE88D5C00014F3B /* jinxishan001.jpg */,
+				F28DC15C1DE88EDB00014F3B /* jinxishan002.jpg */,
+				F28DC1271DE8864300014F3B /* LaunchScreen.storyboard */,
+				F28DC12A1DE8864300014F3B /* Info.plist */,
+				F28DC1191DE8864300014F3B /* Supporting Files */,
+			);
+			path = ButtonEventCustomCellViaNSNotification;
+			sourceTree = "<group>";
+		};
+		F28DC1191DE8864300014F3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F28DC11A1DE8864300014F3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F28DC1301DE88A0C00014F3B /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				F28DC1311DE88A3900014F3B /* HLCustomCell.h */,
+				F28DC1321DE88A3900014F3B /* HLCustomCell.m */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		F28DC1361DE88DED00014F3B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F28DC1371DE88DED00014F3B /* Info.plist */,
+				F28DC1381DE88DED00014F3B /* MASCompositeConstraint.h */,
+				F28DC1391DE88DED00014F3B /* MASCompositeConstraint.m */,
+				F28DC13A1DE88DED00014F3B /* MASConstraint+Private.h */,
+				F28DC13B1DE88DED00014F3B /* MASConstraint.h */,
+				F28DC13C1DE88DED00014F3B /* MASConstraint.m */,
+				F28DC13D1DE88DED00014F3B /* MASConstraintMaker.h */,
+				F28DC13E1DE88DED00014F3B /* MASConstraintMaker.m */,
+				F28DC13F1DE88DED00014F3B /* MASLayoutConstraint.h */,
+				F28DC1401DE88DED00014F3B /* MASLayoutConstraint.m */,
+				F28DC1411DE88DED00014F3B /* Masonry.h */,
+				F28DC1421DE88DED00014F3B /* MASUtilities.h */,
+				F28DC1431DE88DED00014F3B /* MASViewAttribute.h */,
+				F28DC1441DE88DED00014F3B /* MASViewAttribute.m */,
+				F28DC1451DE88DED00014F3B /* MASViewConstraint.h */,
+				F28DC1461DE88DEE00014F3B /* MASViewConstraint.m */,
+				F28DC1471DE88DEE00014F3B /* NSArray+MASAdditions.h */,
+				F28DC1481DE88DEE00014F3B /* NSArray+MASAdditions.m */,
+				F28DC1491DE88DEE00014F3B /* NSArray+MASShorthandAdditions.h */,
+				F28DC14A1DE88DEE00014F3B /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F28DC14B1DE88DEE00014F3B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F28DC14C1DE88DEE00014F3B /* View+MASAdditions.h */,
+				F28DC14D1DE88DEE00014F3B /* View+MASAdditions.m */,
+				F28DC14E1DE88DEE00014F3B /* View+MASShorthandAdditions.h */,
+				F28DC14F1DE88DEE00014F3B /* ViewController+MASAdditions.h */,
+				F28DC1501DE88DEE00014F3B /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28DC1151DE8864300014F3B /* ButtonEventCustomCellViaNSNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28DC12D1DE8864300014F3B /* Build configuration list for PBXNativeTarget "ButtonEventCustomCellViaNSNotification" */;
+			buildPhases = (
+				F28DC1121DE8864300014F3B /* Sources */,
+				F28DC1131DE8864300014F3B /* Frameworks */,
+				F28DC1141DE8864300014F3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonEventCustomCellViaNSNotification;
+			productName = ButtonEventCustomCellViaNSNotification;
+			productReference = F28DC1161DE8864300014F3B /* ButtonEventCustomCellViaNSNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28DC10E1DE8864300014F3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HL;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lhl;
+				TargetAttributes = {
+					F28DC1151DE8864300014F3B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UTT4HQ4F3H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F28DC1111DE8864300014F3B /* Build configuration list for PBXProject "ButtonEventCustomCellViaNSNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F28DC10D1DE8864300014F3B;
+			productRefGroup = F28DC1171DE8864300014F3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28DC1151DE8864300014F3B /* ButtonEventCustomCellViaNSNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28DC1141DE8864300014F3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28DC1291DE8864300014F3B /* LaunchScreen.storyboard in Resources */,
+				F28DC15D1DE88EDB00014F3B /* jinxishan002.jpg in Resources */,
+				F28DC1261DE8864300014F3B /* Assets.xcassets in Resources */,
+				F28DC1241DE8864300014F3B /* Main.storyboard in Resources */,
+				F28DC1511DE88DEE00014F3B /* Info.plist in Resources */,
+				F28DC1351DE88D5C00014F3B /* jinxishan001.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28DC1121DE8864300014F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28DC1541DE88DEE00014F3B /* MASConstraintMaker.m in Sources */,
+				F28DC1331DE88A3900014F3B /* HLCustomCell.m in Sources */,
+				F28DC1211DE8864300014F3B /* ViewController.m in Sources */,
+				F28DC1531DE88DEE00014F3B /* MASConstraint.m in Sources */,
+				F28DC15B1DE88DEE00014F3B /* ViewController+MASAdditions.m in Sources */,
+				F28DC1601DE8A54E00014F3B /* HLZiXiaXianZiViewController.m in Sources */,
+				F28DC1551DE88DEE00014F3B /* MASLayoutConstraint.m in Sources */,
+				F28DC1581DE88DEE00014F3B /* NSArray+MASAdditions.m in Sources */,
+				F28DC1571DE88DEE00014F3B /* MASViewConstraint.m in Sources */,
+				F28DC1561DE88DEE00014F3B /* MASViewAttribute.m in Sources */,
+				F28DC15A1DE88DEE00014F3B /* View+MASAdditions.m in Sources */,
+				F28DC11E1DE8864300014F3B /* AppDelegate.m in Sources */,
+				F28DC11B1DE8864300014F3B /* main.m in Sources */,
+				F28DC1521DE88DEE00014F3B /* MASCompositeConstraint.m in Sources */,
+				F28DC1591DE88DEE00014F3B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F28DC1221DE8864300014F3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28DC1231DE8864300014F3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F28DC1271DE8864300014F3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28DC1281DE8864300014F3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F28DC12B1DE8864300014F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F28DC12C1DE8864300014F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28DC12E1DE8864300014F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				INFOPLIST_FILE = ButtonEventCustomCellViaNSNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.ButtonEventCustomCellViaNSNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F28DC12F1DE8864300014F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UTT4HQ4F3H;
+				INFOPLIST_FILE = ButtonEventCustomCellViaNSNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhl.ButtonEventCustomCellViaNSNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28DC1111DE8864300014F3B /* Build configuration list for PBXProject "ButtonEventCustomCellViaNSNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28DC12B1DE8864300014F3B /* Debug */,
+				F28DC12C1DE8864300014F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28DC12D1DE8864300014F3B /* Build configuration list for PBXNativeTarget "ButtonEventCustomCellViaNSNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28DC12E1DE8864300014F3B /* Debug */,
+				F28DC12F1DE8864300014F3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28DC10E1DE8864300014F3B /* Project object */;
+}
