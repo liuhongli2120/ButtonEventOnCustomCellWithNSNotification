@@ -55,7 +55,7 @@ NSString *const HLYueGuangBaoHeNotification = @"HLYueGuangBaoHeNotification";
     
     UILabel *nameLabel = [[UILabel alloc]init];
     [self.contentView addSubview:nameLabel];
-    nameLabel.backgroundColor = [UIColor purpleColor];
+//    nameLabel.backgroundColor = [UIColor purpleColor];
     nameLabel.text = @"至尊宝:";
     
     
@@ -63,7 +63,7 @@ NSString *const HLYueGuangBaoHeNotification = @"HLYueGuangBaoHeNotification";
     [self.contentView addSubview:button];
     button.backgroundColor = [UIColor cyanColor];
     [button setBackgroundImage:[UIImage imageNamed:@"jinxishan001.jpg"] forState:UIControlStateNormal];
-    [button setTitle:@"\n\n\n\n戳我去见紫霞\n月光宝盒" forState:UIControlStateNormal];
+    [button setTitle:@"\n\n\n\n我是月光宝盒\n戳我去见紫霞" forState:UIControlStateNormal];
     button.titleLabel.numberOfLines = 0;
     
     [button addTarget:self action:@selector(clickButton) forControlEvents:UIControlEventTouchUpInside];

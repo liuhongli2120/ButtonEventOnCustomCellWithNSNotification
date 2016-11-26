@@ -28,6 +28,8 @@
 		F28DC15B1DE88DEE00014F3B /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC1501DE88DEE00014F3B /* ViewController+MASAdditions.m */; };
 		F28DC15D1DE88EDB00014F3B /* jinxishan002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F28DC15C1DE88EDB00014F3B /* jinxishan002.jpg */; };
 		F28DC1601DE8A54E00014F3B /* HLZiXiaXianZiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28DC15F1DE8A54E00014F3B /* HLZiXiaXianZiViewController.m */; };
+		F28DC1631DE9774D00014F3B /* 000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F28DC1611DE9774D00014F3B /* 000.jpg */; };
+		F28DC1641DE9774D00014F3B /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F28DC1621DE9774D00014F3B /* 003.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		F28DC15C1DE88EDB00014F3B /* jinxishan002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jinxishan002.jpg; sourceTree = "<group>"; };
 		F28DC15E1DE8A54E00014F3B /* HLZiXiaXianZiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLZiXiaXianZiViewController.h; sourceTree = "<group>"; };
 		F28DC15F1DE8A54E00014F3B /* HLZiXiaXianZiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLZiXiaXianZiViewController.m; sourceTree = "<group>"; };
+		F28DC1611DE9774D00014F3B /* 000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000.jpg; sourceTree = "<group>"; };
+		F28DC1621DE9774D00014F3B /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				F28DC1361DE88DED00014F3B /* Masonry */,
 				F28DC1221DE8864300014F3B /* Main.storyboard */,
 				F28DC1251DE8864300014F3B /* Assets.xcassets */,
+				F28DC1611DE9774D00014F3B /* 000.jpg */,
+				F28DC1621DE9774D00014F3B /* 003.jpg */,
 				F28DC1341DE88D5C00014F3B /* jinxishan001.jpg */,
 				F28DC15C1DE88EDB00014F3B /* jinxishan002.jpg */,
 				F28DC1271DE8864300014F3B /* LaunchScreen.storyboard */,
@@ -235,9 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28DC1291DE8864300014F3B /* LaunchScreen.storyboard in Resources */,
+				F28DC1641DE9774D00014F3B /* 003.jpg in Resources */,
 				F28DC15D1DE88EDB00014F3B /* jinxishan002.jpg in Resources */,
 				F28DC1261DE8864300014F3B /* Assets.xcassets in Resources */,
 				F28DC1241DE8864300014F3B /* Main.storyboard in Resources */,
+				F28DC1631DE9774D00014F3B /* 000.jpg in Resources */,
 				F28DC1511DE88DEE00014F3B /* Info.plist in Resources */,
 				F28DC1351DE88D5C00014F3B /* jinxishan001.jpg in Resources */,
 			);
@@ -425,6 +433,7 @@
 				F28DC12F1DE8864300014F3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
